@@ -50,6 +50,9 @@ msgstr "추가"
 msgid "Add Liquidity"
 msgstr "유동성 추가"
 
+msgid "Add RICE to your MetaMask wallet"
+msgstr ""
+
 msgid "Add SUSHI to your MetaMask wallet"
 msgstr ""
 
@@ -58,9 +61,6 @@ msgstr "자산을 빌리려면 담보를 추가하세요"
 
 msgid "Add liquidity"
 msgstr "유동성 추가"
-
-msgid "Add xSUSHI to your MetaMask wallet"
-msgstr ""
 
 msgid "Add {0} to MetaMask"
 msgstr ""

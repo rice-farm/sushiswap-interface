@@ -50,6 +50,9 @@ msgstr "Add"
 msgid "Add Liquidity"
 msgstr "Add Liquidity"
 
+msgid "Add RICE to your MetaMask wallet"
+msgstr "Add RICE to your MetaMask wallet"
+
 msgid "Add SUSHI to your MetaMask wallet"
 msgstr "Add SUSHI to your MetaMask wallet"
 
@@ -58,9 +61,6 @@ msgstr "Add collateral in order to borrow assets"
 
 msgid "Add liquidity"
 msgstr "Add liquidity"
-
-msgid "Add xSUSHI to your MetaMask wallet"
-msgstr "Add xSUSHI to your MetaMask wallet"
 
 msgid "Add {0} to MetaMask"
 msgstr "Add {0} to MetaMask"

@@ -50,6 +50,9 @@ msgstr "Thêm"
 msgid "Add Liquidity"
 msgstr "Thêm thanh khoản"
 
+msgid "Add RICE to your MetaMask wallet"
+msgstr ""
+
 msgid "Add SUSHI to your MetaMask wallet"
 msgstr ""
 
@@ -58,9 +61,6 @@ msgstr "Thêm tài sản thế chấp để vay tài sản"
 
 msgid "Add liquidity"
 msgstr "Thêm thanh khoản"
-
-msgid "Add xSUSHI to your MetaMask wallet"
-msgstr ""
 
 msgid "Add {0} to MetaMask"
 msgstr ""
