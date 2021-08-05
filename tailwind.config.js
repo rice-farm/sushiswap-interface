@@ -43,8 +43,8 @@ module.exports = {
         red: '#ff3838',
         yellow: '#ffd166',
 
-        'opaque-blue': '#37ad4c',
-        'opaque-pink': '#e6a43f',
+        'opaque-blue': '#37ad4c75',
+        'opaque-pink': '#e6a43f75',
         'pink-red': '#FE5A75',
         'light-brown': '#FEC464',
         'light-yellow': '#FFD166',

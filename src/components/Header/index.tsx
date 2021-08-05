@@ -36,7 +36,7 @@ function AppBar(): JSX.Element {
             <div className="px-4 py-4">
               <div className="flex items-center justify-between">
                 <div className="flex items-center">
-                  <Image src="/logo.png" alt="Sushi" width="32px" height="32px" />
+                  <Image src="/logo.png" alt="Fuzion" width="32px" height="32px" />
                   <div className="hidden sm:block sm:ml-4">
                     <div className="flex space-x-2">
                       {/* <Buy /> */}
@@ -76,26 +76,29 @@ function AppBar(): JSX.Element {
                           </a>
                         </NavLink>
                       )}
-                      {chainId && [ChainId.MAINNET, ChainId.KOVAN, ChainId.BSC, ChainId.MATIC, ChainId.XDAI].includes(chainId) && (
-                        <>
-                          <NavLink href={'/lend'}>
-                            <a
-                              id={`lend-nav-link`}
-                              className="p-2 text-baseline text-primary hover:text-high-emphesis focus:text-high-emphesis md:p-3 whitespace-nowrap"
-                            >
-                              {i18n._(t`Lend`)}
-                            </a>
-                          </NavLink>
-                          <NavLink href={'/borrow'}>
-                            <a
-                              id={`borrow-nav-link`}
-                              className="p-2 text-baseline text-primary hover:text-high-emphesis focus:text-high-emphesis md:p-3 whitespace-nowrap"
-                            >
-                              {i18n._(t`Borrow`)}
-                            </a>
-                          </NavLink>
-                        </>
-                      )}
+                      {chainId &&
+                        [ChainId.MAINNET, ChainId.KOVAN, ChainId.BSC, ChainId.MATIC, ChainId.XDAI].includes(
+                          chainId
+                        ) && (
+                          <>
+                            <NavLink href={'/lend'}>
+                              <a
+                                id={`lend-nav-link`}
+                                className="p-2 text-baseline text-primary hover:text-high-emphesis focus:text-high-emphesis md:p-3 whitespace-nowrap"
+                              >
+                                {i18n._(t`Lend`)}
+                              </a>
+                            </NavLink>
+                            <NavLink href={'/borrow'}>
+                              <a
+                                id={`borrow-nav-link`}
+                                className="p-2 text-baseline text-primary hover:text-high-emphesis focus:text-high-emphesis md:p-3 whitespace-nowrap"
+                              >
+                                {i18n._(t`Borrow`)}
+                              </a>
+                            </NavLink>
+                          </>
+                        )}
                       {chainId === ChainId.MAINNET && (
                         <NavLink href={'/stake'}>
                           <a
@@ -124,7 +127,7 @@ function AppBar(): JSX.Element {
                   <div className="flex items-center justify-between w-full space-x-2 sm:justify-end">
                     {chainId && [ChainId.MAINNET].includes(chainId) && library && library.provider.isMetaMask && (
                       <>
-                        <QuestionHelper text={i18n._(t`Add xSUSHI to your MetaMask wallet`)}>
+                        <QuestionHelper text={i18n._(t`Add RICE to your MetaMask wallet`)}>
                           <div
                             className="hidden p-0.5 rounded-md cursor-pointer sm:inline-flex bg-dark-900 hover:bg-dark-800"
                             onClick={() => {
@@ -132,11 +135,10 @@ function AppBar(): JSX.Element {
                                 const params: any = {
                                   type: 'ERC20',
                                   options: {
-                                    address: '0x8798249c2e607446efb7ad49ec89dd1865ff4272',
-                                    symbol: 'XSUSHI',
+                                    address: '0xdB759784Cf1D1f21CCcFa23f6101CD83DdF6e976',
+                                    symbol: 'RICE',
                                     decimals: 18,
-                                    image:
-                                      'https://raw.githubusercontent.com/sushiswap/assets/master/blockchains/ethereum/assets/0x8798249c2E607446EfB7Ad49eC89dD1865Ff4272/logo.png',
+                                    image: 'https://ricefarm.fi/logo.png',
                                   },
                                 }
                                 library.provider
@@ -146,7 +148,7 @@ function AppBar(): JSX.Element {
                                   })
                                   .then((success) => {
                                     if (success) {
-                                      console.log('Successfully added XSUSHI to MetaMask')
+                                      console.log('Successfully added RICE to MetaMask')
                                     } else {
                                       throw new Error('Something went wrong.')
                                     }
@@ -156,8 +158,8 @@ function AppBar(): JSX.Element {
                             }}
                           >
                             <Image
-                              src="/images/tokens/xsushi-square.jpg"
-                              alt="xSUSHI"
+                              src="/images/tokens/ricefarm-square.jpg"
+                              alt="Ricefarm"
                               width="38px"
                               height="38px"
                               objectFit="contain"
@@ -202,8 +204,8 @@ function AppBar(): JSX.Element {
                             }}
                           >
                             <Image
-                              src="/images/tokens/sushi-square.jpg"
-                              alt="SUSHI"
+                              src="/images/tokens/ricefarm-square.jpg"
+                              alt="Ricefarm"
                               width="38px"
                               height="38px"
                               objectFit="contain"
@@ -355,7 +357,7 @@ function AppBar(): JSX.Element {
                       {i18n._(t`Analytics`)}
                     </ExternalLink>
                   )}
-                  
+
                 {chainId === ChainId.MAINNET && (
                   <Link href={'/miso'}>
                     <a

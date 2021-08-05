@@ -498,6 +498,12 @@ const MAINNET_CHAINLINK_TOKENS = [
     decimals: 18,
   },
   {
+    symbol: 'xRICE',
+    name: 'Ricebar',
+    address: '0xdB759784Cf1D1f21CCcFa23f6101CD83DdF6e976',
+    decimals: 18,
+  },
+  {
     symbol: 'xSUSHI',
     name: 'SushiBar',
     address: '0x8798249c2E607446EfB7Ad49eC89dD1865Ff4272',
