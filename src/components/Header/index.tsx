@@ -172,7 +172,7 @@ function AppBar(): JSX.Element {
 
                     {chainId && chainId in SUSHI_ADDRESS && library && library.provider.isMetaMask && (
                       <>
-                        <QuestionHelper text={i18n._(t`Add SUSHI to your MetaMask wallet`)}>
+                        <QuestionHelper text={i18n._(t`Add RICE to your MetaMask wallet`)}>
                           <div
                             className="hidden rounded-md cursor-pointer sm:inline-flex bg-dark-900 hover:bg-dark-800 p-0.5"
                             onClick={() => {
@@ -180,10 +180,10 @@ function AppBar(): JSX.Element {
                                 type: 'ERC20',
                                 options: {
                                   address: SUSHI_ADDRESS[chainId],
-                                  symbol: 'SUSHI',
+                                  symbol: 'RICE',
                                   decimals: 18,
                                   image:
-                                    'https://raw.githubusercontent.com/sushiswap/assets/master/blockchains/ethereum/assets/0x6B3595068778DD592e39A122f4f5a5cF09C90fE2/logo.png',
+                                    'https://ricefarm.fi/logo.png',
                                 },
                               }
                               if (library && library.provider.isMetaMask && library.provider.request) {
