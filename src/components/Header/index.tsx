@@ -127,7 +127,7 @@ function AppBar(): JSX.Element {
                   <div className="flex items-center justify-between w-full space-x-2 sm:justify-end">
                     {chainId && [ChainId.MAINNET].includes(chainId) && library && library.provider.isMetaMask && (
                       <>
-                        <QuestionHelper text={i18n._(t`Add RICE to your MetaMask wallet`)}>
+                        <QuestionHelper text={i18n._(t`Add xRICE to your MetaMask wallet`)}>
                           <div
                             className="hidden p-0.5 rounded-md cursor-pointer sm:inline-flex bg-dark-900 hover:bg-dark-800"
                             onClick={() => {
@@ -136,7 +136,7 @@ function AppBar(): JSX.Element {
                                   type: 'ERC20',
                                   options: {
                                     address: '0xdB759784Cf1D1f21CCcFa23f6101CD83DdF6e976',
-                                    symbol: 'RICE',
+                                    symbol: 'xRICE',
                                     decimals: 18,
                                     image: 'https://ricefarm.fi/logo.png',
                                   },
