@@ -303,7 +303,7 @@ export default function Migrate() {
   let exchange
 
   if (chainId === ChainId.MAINNET) {
-    exchange = 'Uniswap'
+    exchange = 'TeslaSafe'
   } else if (chainId === ChainId.BSC) {
     exchange = 'TeslaSafe'
   } else if (chainId === ChainId.MATIC) {
