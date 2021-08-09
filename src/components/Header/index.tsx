@@ -358,7 +358,7 @@ function AppBar(): JSX.Element {
                     </ExternalLink>
                   )}
 
-                {chainId === ChainId.MAINNET && (
+                {/* {chainId === ChainId.MAINNET && (
                   <Link href={'/miso'}>
                     <a
                       id={`stake-nav-link`}
@@ -367,7 +367,7 @@ function AppBar(): JSX.Element {
                       {i18n._(t`Miso`)}
                     </a>
                   </Link>
-                )}
+                )} */}
               </div>
             </Popover.Panel>
           </>
