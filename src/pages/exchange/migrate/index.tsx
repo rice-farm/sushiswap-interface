@@ -303,9 +303,9 @@ export default function Migrate() {
   let exchange
 
   if (chainId === ChainId.MAINNET) {
-    exchange = 'Uniswap'
+    exchange = 'TeslaSafe'
   } else if (chainId === ChainId.BSC) {
-    exchange = 'PancakeSwap'
+    exchange = 'TeslaSafe'
   } else if (chainId === ChainId.MATIC) {
     exchange = 'QuickSwap'
   }
@@ -313,8 +313,8 @@ export default function Migrate() {
   return (
     <Container id="migrate-page" className="py-4 space-y-6 md:py-8 lg:py-12" maxWidth="lg">
       <Head>
-        <title>Migrate | Sushi</title>
-        <meta key="description" name="description" content="Migrate your liquidity to SushiSwap." />
+        <title>Migrate | Ricefarm</title>
+        <meta key="description" name="description" content="Migrate your liquidity to Ricefarm." />
       </Head>
 
       <div className="mb-8 text-2xl text-center">{i18n._(t`Migrate ${exchange} Liquidity`)}</div>

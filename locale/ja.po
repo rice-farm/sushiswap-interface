@@ -50,6 +50,9 @@ msgstr "追加"
 msgid "Add Liquidity"
 msgstr "流動性を追加"
 
+msgid "Add RICE to your MetaMask wallet"
+msgstr ""
+
 msgid "Add SUSHI to your MetaMask wallet"
 msgstr ""
 
@@ -58,9 +61,6 @@ msgstr "資産を借り入れるために担保を追加"
 
 msgid "Add liquidity"
 msgstr "流動性を追加"
-
-msgid "Add xSUSHI to your MetaMask wallet"
-msgstr ""
 
 msgid "Add {0} to MetaMask"
 msgstr ""
@@ -386,17 +386,12 @@ msgid "Find Pool"
 msgstr "プールを検索"
 
 msgid ""
-"For every swap on the exchange on every chain, 0.05% of the swap fees are distributed as SUSHI\n"
-"proportional to your share of the SushiBar. When your SUSHI is staked into the SushiBar, you recieve\n"
-"xSUSHI in return for voting rights and a fully composable token that can interact with other protocols.\n"
-"Your xSUSHI is continuously compounding, when you unstake you will receive all the originally deposited\n"
-"SUSHI and any additional from fees."
+"For every swap on the exchange on every chain, 0.05% of the swap fees are distributed as Ricefarm\n"
+"proportional to your share of the RicefarmBar. When your Ricefarm is staked into the RicefarmBar, you recieve\n"
+"xRicefarm in return for voting rights and a fully composable token that can interact with other protocols.\n"
+"Your xRicefarm is continuously compounding, when you unstake you will receive all the originally deposited\n"
+"Ricefarm and any additional from fees."
 msgstr ""
-"チェーンごとの取引所でスワップが発生するごとに、スワップ手数料の0.05%がSUSHIとして\n"
-"SushiBarのシェアに比例して分配されます。SUSHIをSushiBarに出資すると、議決権および他のプロトコルと\n"
-"相互作用できる完全に構成可能なトークンと引き換えにxSUSHIを受け取ることができます。\n"
-"xSUSHIは継続的に複利効果が得られ、出資を解除した時には、最初に預けたSUSHIおよび手数料の\n"
-"追加分を受け取ることができます。"
 
 msgid "French"
 msgstr ""
@@ -587,8 +582,8 @@ msgstr ""
 msgid "Max"
 msgstr "最大"
 
-msgid "Maximize yield by staking SUSHI for xSUSHI"
-msgstr "xSUSHIにSUSHIを出資して利回りを最大化"
+msgid "Maximize yield by staking Ricefarm for xRicefarm"
+msgstr ""
 
 msgid "Maximum sent"
 msgstr ""
@@ -862,8 +857,8 @@ msgstr "SAAVEで利回りを積み上げる"
 msgid "Stake"
 msgstr "出資"
 
-msgid "Stake SUSHI"
-msgstr "SUSHIに出資"
+msgid "Stake Ricefarm"
+msgstr ""
 
 msgid "Stake SUSHI for xSUSHI"
 msgstr "xSUSHIにSUSHIを出資"
@@ -1096,11 +1091,11 @@ msgstr "今週のあなたの請求可能なSUSHI"
 msgid "Your Liquidity"
 msgstr "あなたの流動性"
 
+msgid "Your RicefarmBar Stats"
+msgstr ""
+
 msgid "Your Staked"
 msgstr "あなたの出資"
-
-msgid "Your SushiBar Stats"
-msgstr "あなたのSushiBarの統計"
 
 msgid "Your Wallet"
 msgstr "あなたのウォレット"

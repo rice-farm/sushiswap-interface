@@ -50,6 +50,9 @@ msgstr "添加"
 msgid "Add Liquidity"
 msgstr "添加流动性"
 
+msgid "Add RICE to your MetaMask wallet"
+msgstr ""
+
 msgid "Add SUSHI to your MetaMask wallet"
 msgstr ""
 
@@ -58,9 +61,6 @@ msgstr "添加抵押品以借出资产"
 
 msgid "Add liquidity"
 msgstr "添加流动性"
-
-msgid "Add xSUSHI to your MetaMask wallet"
-msgstr ""
 
 msgid "Add {0} to MetaMask"
 msgstr ""
@@ -382,12 +382,12 @@ msgid "Find Pool"
 msgstr "查找池"
 
 msgid ""
-"For every swap on the exchange on every chain, 0.05% of the swap fees are distributed as SUSHI\n"
-"proportional to your share of the SushiBar. When your SUSHI is staked into the SushiBar, you recieve\n"
-"xSUSHI in return for voting rights and a fully composable token that can interact with other protocols.\n"
-"Your xSUSHI is continuously compounding, when you unstake you will receive all the originally deposited\n"
-"SUSHI and any additional from fees."
-msgstr "每条链上每笔交易手续费的0.05%都分给SushiBar（以SUSHI的形式）。当您的SUSHI质押在SushiBar的时候，您将会收到xSUSHI，它有治理权及可以与其它协议交互。xSUSHI可持续复利，当您解除质押时，您将收到质押时的SUSHI及手续费。"
+"For every swap on the exchange on every chain, 0.05% of the swap fees are distributed as Ricefarm\n"
+"proportional to your share of the RicefarmBar. When your Ricefarm is staked into the RicefarmBar, you recieve\n"
+"xRicefarm in return for voting rights and a fully composable token that can interact with other protocols.\n"
+"Your xRicefarm is continuously compounding, when you unstake you will receive all the originally deposited\n"
+"Ricefarm and any additional from fees."
+msgstr ""
 
 msgid "French"
 msgstr ""
@@ -573,8 +573,8 @@ msgstr ""
 msgid "Max"
 msgstr "最大数量"
 
-msgid "Maximize yield by staking SUSHI for xSUSHI"
-msgstr "将SUSHI质押成xSUSHI最大化收益"
+msgid "Maximize yield by staking Ricefarm for xRicefarm"
+msgstr ""
 
 msgid "Maximum sent"
 msgstr ""
@@ -848,8 +848,8 @@ msgstr "使用SAAVE叠加收益"
 msgid "Stake"
 msgstr "质押"
 
-msgid "Stake SUSHI"
-msgstr "质押SUSHI"
+msgid "Stake Ricefarm"
+msgstr ""
 
 msgid "Stake SUSHI for xSUSHI"
 msgstr "将SUSHI质押成xSUSHI"
@@ -1082,11 +1082,11 @@ msgstr "本周您可领取的SUSHI"
 msgid "Your Liquidity"
 msgstr "您的流动性"
 
+msgid "Your RicefarmBar Stats"
+msgstr ""
+
 msgid "Your Staked"
 msgstr "您在流动性池的占比"
-
-msgid "Your SushiBar Stats"
-msgstr "您的SushiBar统计信息"
 
 msgid "Your Wallet"
 msgstr "您的钱包"

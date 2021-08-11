@@ -50,6 +50,9 @@ msgstr "Ajouter"
 msgid "Add Liquidity"
 msgstr "Ajouter de la liquidité"
 
+msgid "Add RICE to your MetaMask wallet"
+msgstr ""
+
 msgid "Add SUSHI to your MetaMask wallet"
 msgstr ""
 
@@ -58,9 +61,6 @@ msgstr "Ajouter des garanties pour emprunter des actifs"
 
 msgid "Add liquidity"
 msgstr "Ajouter de la liquidité"
-
-msgid "Add xSUSHI to your MetaMask wallet"
-msgstr ""
 
 msgid "Add {0} to MetaMask"
 msgstr ""
@@ -386,17 +386,12 @@ msgid "Find Pool"
 msgstr "Trouver un pool"
 
 msgid ""
-"For every swap on the exchange on every chain, 0.05% of the swap fees are distributed as SUSHI\n"
-"proportional to your share of the SushiBar. When your SUSHI is staked into the SushiBar, you recieve\n"
-"xSUSHI in return for voting rights and a fully composable token that can interact with other protocols.\n"
-"Your xSUSHI is continuously compounding, when you unstake you will receive all the originally deposited\n"
-"SUSHI and any additional from fees."
+"For every swap on the exchange on every chain, 0.05% of the swap fees are distributed as Ricefarm\n"
+"proportional to your share of the RicefarmBar. When your Ricefarm is staked into the RicefarmBar, you recieve\n"
+"xRicefarm in return for voting rights and a fully composable token that can interact with other protocols.\n"
+"Your xRicefarm is continuously compounding, when you unstake you will receive all the originally deposited\n"
+"Ricefarm and any additional from fees."
 msgstr ""
-"Pour chaque swap effectué sur les différentes chaines, 0,05% des frais de transaction sont distribués en SUSHI \n"
-", proportionnellement à votre particpation au SushiBar. Lorsque vous stakez vos SUSHI dans le SushiBar, vous recevez \n"
-" xSUSHI en échange, qui vous octroie des droits de vote, engrange des revenus complémentaires et vous permet d'interagir avec d'autres protocoles. \n"
-" Votre xSUSHI s'apprécie continuellement et lorsque vous le débloquez, vous recevez vos \n"
-" SUSHI initialement déposés ainsi que l'ensemble des frais accumulés."
 
 msgid "French"
 msgstr ""
@@ -587,8 +582,8 @@ msgstr ""
 msgid "Max"
 msgstr "Max"
 
-msgid "Maximize yield by staking SUSHI for xSUSHI"
-msgstr "Maximisez vos rendements en stakant SUSHI pour xSUSHI"
+msgid "Maximize yield by staking Ricefarm for xRicefarm"
+msgstr ""
 
 msgid "Maximum sent"
 msgstr ""
@@ -862,8 +857,8 @@ msgstr "Accumulez des rendements avec SAAVE"
 msgid "Stake"
 msgstr "Staker"
 
-msgid "Stake SUSHI"
-msgstr "Placer SUSHI"
+msgid "Stake Ricefarm"
+msgstr ""
 
 msgid "Stake SUSHI for xSUSHI"
 msgstr "Staker SUSHI pour xSUSHI"
@@ -1096,11 +1091,11 @@ msgstr "Vos SUSHI à récolter cette semaine"
 msgid "Your Liquidity"
 msgstr "Votre liquidité"
 
+msgid "Your RicefarmBar Stats"
+msgstr ""
+
 msgid "Your Staked"
 msgstr "Vos X placés"
-
-msgid "Your SushiBar Stats"
-msgstr "Vos statistiques SushiBar"
 
 msgid "Your Wallet"
 msgstr "Votre portefeuille"
